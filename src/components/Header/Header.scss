@@ -1,0 +1,187 @@
+// colors
+$green: rgb(30, 215, 96);
+$light-black: rgb(40, 40, 40);
+$black: rgb(24, 24, 24);
+$grey: rgb(170, 170, 170);
+$sand: rgb(200, 200, 200);
+$white: rgb(255, 255, 255);
+$blue: #4688d7;
+
+// spacing 
+$padding-xs  : 5px;
+$padding-sm  : 10px;
+$padding     : 15px;
+$padding-lg  : 30px;
+$padding-xl  : 60px;
+
+$margin-xs  : 5px;
+$margin-sm  : 10px;
+$margin     : 15px;
+$margin-lg  : 30px;
+$margin-xl  : 60px;
+
+// borders
+$border-radius: 15px;
+
+
+// Font-sizes 
+$x-small: 11px;
+$small: 14px;
+$medium: 16px;
+$large: 20px;
+$x-large: 24px;
+$xx-large: 36px;
+$xxx-large: 52px;
+
+
+// Styles 
+a {
+    color: $grey;
+    &:hover {
+        color: $sand;
+    }
+}
+
+
+.header {
+    & {
+        background: $light-black;
+        padding: $padding-sm;
+        color: $grey;
+        border-bottom: 1px solid $black;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+
+    }
+}
+
+.window__actions {}
+
+.page-flows {
+  
+  .flow {
+    
+    font-size: $large;
+    color: $grey;
+    margin: 0 $margin-sm;
+    
+    &:hover {
+      color: $white;
+    }
+    
+    .disabled {
+      color: darken( $grey , 30% );
+    }
+  }
+  
+}
+
+.search {
+  
+  margin-left: 1%;
+  
+  input {
+    
+    border-radius: $border-radius;
+    border: none;
+    background: $white;
+    color: $black;
+    padding-left: $padding-lg;
+    outline: none;
+    // background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/7022/ios-search.svg);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 5px;
+    
+  }
+  
+}
+
+.user {
+  
+  & {
+    width: 300px;
+    margin-left: auto;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  i {
+    font-size: $large;
+    
+    &:hover {
+      color: $white;
+      cursor: pointer;
+    }
+  }
+  
+  &__notifications {}
+  
+  &__inbox {}
+  
+  &__info {
+
+    
+  }
+  
+  &__actions {
+    
+    button {
+      background: none;
+      border: none;
+    }
+    
+    .dropdown-menu {
+      background: $light-black;
+      margin-top: 25px;
+      border-radius: 2px;
+      padding: 0;
+      border: none;
+      
+      &:before {
+        font-family: "Ionicons";
+        content: "\f365";
+        position: absolute;
+        top: -30px;
+        right: 7px;
+        color: $light-black;
+        font-size: $xx-large;
+      }
+      
+      a {
+        color: $grey;
+        transition: all 0.2s ease;
+        
+        &:hover {
+          background: none;
+          transition: all 0.2s ease;
+        }
+      }
+      
+      li {
+        padding: $padding-sm;
+        margin: 0;
+        transition: all 0.2s ease;
+        
+        &:hover {
+          background: $grey;
+          transition: all 0.2s ease;
+          
+          a {
+            color: $sand;
+            transition: all 0.2s ease;
+          }
+        }
+      }
+      
+    }
+    
+  }
+  
+}
+
+
