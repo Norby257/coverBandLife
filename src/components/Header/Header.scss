@@ -55,3 +55,133 @@ a {
 
     }
 }
+
+.window__actions {}
+
+.page-flows {
+  
+  .flow {
+    
+    font-size: $large;
+    color: $grey;
+    margin: 0 $margin-sm;
+    
+    &:hover {
+      color: $white;
+    }
+    
+    .disabled {
+      color: darken( $grey , 30% );
+    }
+  }
+  
+}
+
+.search {
+  
+  margin-left: 1%;
+  
+  input {
+    
+    border-radius: $border-radius;
+    border: none;
+    background: $white;
+    color: $black;
+    padding-left: $padding-lg;
+    outline: none;
+    // background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/7022/ios-search.svg);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 5px;
+    
+  }
+  
+}
+
+.user {
+  
+  & {
+    width: 300px;
+    margin-left: auto;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  i {
+    font-size: $large;
+    
+    &:hover {
+      color: $white;
+      cursor: pointer;
+    }
+  }
+  
+  &__notifications {}
+  
+  &__inbox {}
+  
+  &__info {
+
+    
+  }
+  
+  &__actions {
+    
+    button {
+      background: none;
+      border: none;
+    }
+    
+    .dropdown-menu {
+      background: $light-black;
+      margin-top: 25px;
+      border-radius: 2px;
+      padding: 0;
+      border: none;
+      
+      &:before {
+        font-family: "Ionicons";
+        content: "\f365";
+        position: absolute;
+        top: -30px;
+        right: 7px;
+        color: $light-black;
+        font-size: $xx-large;
+      }
+      
+      a {
+        color: $grey;
+        transition: all 0.2s ease;
+        
+        &:hover {
+          background: none;
+          transition: all 0.2s ease;
+        }
+      }
+      
+      li {
+        padding: $padding-sm;
+        margin: 0;
+        transition: all 0.2s ease;
+        
+        &:hover {
+          background: $grey;
+          transition: all 0.2s ease;
+          
+          a {
+            color: $sand;
+            transition: all 0.2s ease;
+          }
+        }
+      }
+      
+    }
+    
+  }
+  
+}
+
+

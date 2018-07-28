@@ -37,10 +37,6 @@ const Header = props => (
     
     <div className="user__info">  
       <span className="user__info__name">
-      
-        <span className="first">User Name</span>
-        
-        <span className="last">Here</span>
         
       </span>
       
