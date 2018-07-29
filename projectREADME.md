@@ -9,7 +9,7 @@ You can also add notes as well, such as  `tune half step down`, `Noreen sings le
 
 Want Bohemian Rhapsody as your closer? DONE
 
-Want to open with I Write Sins Not Tragedies, or move it right before set break? DONE
+Want to open with `I Write Sins Not Tragedies`, or move it right before set break? DONE
 
 Want to see a set list ONLY with Panic!, David Bowie, and Jimi Hendrix? Rock on. 
 

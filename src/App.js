@@ -5,6 +5,7 @@ import './App.css';
 import Nav from './components/Nav';
 import Header from './components/Header';
 import SetList from './components/Aside/SetList';
+import AddSetList from './components/Aside/AddSetList';
 import Flexbox from 'flexbox-react';
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
       <Nav />
       <Header />
       <SetList />
+      <AddSetList />
       </div>
     );
   }
