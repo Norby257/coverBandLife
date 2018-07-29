@@ -1,19 +1,41 @@
 import React from 'react';
-import './Nav.css';
+import './Nav.scss';
 
 //  Nav component 
 
 const Nav = props => (
-    <nav className="navbar">
-    <ul className="twitter" role="navigation">
-    <li><i className="fa fa-home"></i>Home</li>
-    <li><i className="fa fa-bell-o"></i>Notifications</li>
-    <li><i className="fa fa-envelope-o"></i>Messages</li>
-    <li className="twitter__bird"><i className="fa fa-twitter"></i></li>
-    <li><form><input placeholder="search twitter"/><i className="fa fa-search"></i></form></li>
-    <li><i className="fa fa-user-circle-o"></i></li>
-    <li><button>tweet</button></li>
-  </ul>
+    <nav className="navigation">
+        <div className="navigation__list">
+
+          <div className="navigation__list__header" 
+               role="button" 
+               data-toggle="collapse" 
+               href="#main" 
+               aria-expanded="true" 
+               aria-controls="main">
+            Main
+          </div>
+          
+          <div className="collapse in" id="main">
+          
+            <a href="#" className="navigation__list__item">
+              <i class="ion-ios-browsers"></i>
+              <span>Browse</span>
+            </a>
+
+            <a href="#" className="navigation__list__item">
+              <i className="ion-person-stalker"></i>
+              <span>Activity</span>
+            </a>
+
+            <a href="#" className="navigation__list__item">
+              <i className="ion-radio-waves"></i>
+              <span>Radio</span>
+            </a>
+            
+          </div>
+
+        </div>
 
     </nav>
 )
