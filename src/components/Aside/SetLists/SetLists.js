@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import './SetList.scss';
+import './SetLists.scss';
 class SetList extends Component {
   render() {
     return (
