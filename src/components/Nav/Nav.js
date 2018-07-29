@@ -19,7 +19,7 @@ const Nav = props => (
           <div className="collapse in" id="main">
           
             <a href="#" className="navigation__list__item">
-              <i class="ion-ios-browsers"></i>
+              <i className="ion-ios-browsers"></i>
               <span>Browse</span>
             </a>
 
