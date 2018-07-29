@@ -23,7 +23,7 @@ Reminders - when to practice songs, update tunings
 Noreen M 
 
 # Motivations 
-As an avid guitarist, it'd be nice to have all my songs, gig details, etc in one place 
+As an avid guitarist, it'd be nice to have all my songs, gig details, etc in one place, and make it easy to update opening and closing songs.
 
 # Technologies Used 
 
@@ -31,4 +31,7 @@ This is a full stack app utilziing the following technologies:
 
 * React JS 
 * Flex box for CSS
+* Webpack for dev config 
+* SCSS 
+* TypeScript
 * Mongo DB
