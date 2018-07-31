@@ -24,12 +24,12 @@ const Nav = props => (
             </a>
 
             <a href="#" className="navigation__list__item">
-              <i className="ion-person-stalker"></i>
+              <i className="fas fa-chart-line"></i>
               <span>Activity</span>
             </a>
 
             <a href="#" className="navigation__list__item">
-              <i className="ion-radio-waves"></i>
+              <i className="fas fa-broadcast-tower"></i>
               <span>Radio</span>
             </a>
             
