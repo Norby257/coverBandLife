@@ -7,6 +7,7 @@ import Main from './components/Main';
 import SetLists from './components/Aside/SetLists';
 import AddSetList from './components/Aside/AddSetList';
 import Flexbox from 'flexbox-react';
+import Lyrics from './components/Lyrics';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
       <Main />
       <SetLists />
       <AddSetList />
+      <Lyrics />
       </div>
     );
   }
