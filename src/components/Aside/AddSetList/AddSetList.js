@@ -5,8 +5,8 @@ class AddSetList extends Component {
     return (
       <div className="playlist">
         <a href="#">
-          <i className="ion-ios-plus-outline"></i>
-           + New set list
+          <i className="fa fa-plus-square" aria-hidden="true"></i>
+            New set list
         </a>
       </div>
     )
