@@ -15,8 +15,9 @@ class App extends Component {
       <div className="App">
       <Nav />
       <Header />
+      <div col-md-3>
+      </div>
       <Main />
-      <SetLists />
       <AddSetList />
       </div>
     );

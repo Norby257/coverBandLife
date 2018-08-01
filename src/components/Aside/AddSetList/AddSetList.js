@@ -6,7 +6,7 @@ class AddSetList extends Component {
       <div className="playlist">
         <a href="#">
           <i className="fa fa-plus-square" aria-hidden="true"></i>
-            New set list
+            Add a track
         </a>
       </div>
     )
