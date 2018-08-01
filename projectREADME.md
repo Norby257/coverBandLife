@@ -5,6 +5,10 @@ Built with :heart: and mindfulness of busy cover band artists.
 
 Keep your setlist in one place. Easily add, delete, or move songs in your set list. Search by song name and album title. Easily find opening and closing tunes.
 
+![Main Screen] (/src/assets/setListMainScreen.png)
+
+
+
 You can also add notes as well, such as  `tune half step down`, `Noreen sings lead on this `, or `watch out for key change` 
 
 Want Bohemian Rhapsody as your closer? DONE
