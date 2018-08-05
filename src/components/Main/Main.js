@@ -1,6 +1,49 @@
 import React, {Component} from 'react';
 import './Main.scss';
 class Main extends Component {
+
+
+  //  state 
+
+  state = {
+    setList: [],
+    gigDate: "",
+    gigLocation: "",
+    gigNotes: ""
+  }
+
+
+  //   lifecycle methods here 
+
+  componentDidMount();
+
+
+    //  event functions here that are passed as props to main area - will use setState 
+  //  add track 
+  //  remove track 
+  //  Opener
+  //  Closer 
+
+addTrack = () => {
+  console.log('new track added! Rock on');
+}  
+
+removeTrack = () => {
+  console.log('track has been removed');
+}
+
+SetOpener = () => {
+  console.log('this is your opening song!')
+}
+
+setCloser = () => { 
+  console.log('this is your closing song');
+}
+
+//  also have array of JSON for now to map over and access as props rather than manually
+//  doing this 
+
+
     render() {
         return (
             
