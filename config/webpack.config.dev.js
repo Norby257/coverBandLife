@@ -10,6 +10,7 @@ const WatchMissingNodeModulesPlugin = require('react-dev-utils/WatchMissingNodeM
 const eslintFormatter = require('react-dev-utils/eslintFormatter');
 const ModuleScopePlugin = require('react-dev-utils/ModuleScopePlugin');
 const getClientEnvironment = require('./env');
+
 const paths = require('./paths');
 
 // Webpack uses `publicPath` to determine where the app is being served from.
@@ -188,6 +189,12 @@ module.exports = {
                       ],
                       flexbox: 'no-2009',
                     }),
+                    new HtmlWebpackPlugin({
+                      inject: false,
+                      hash: true,
+                      template: './src/index.html',
+                      filename: 'index.html'
+                    })
                   ],
                 },
               },
